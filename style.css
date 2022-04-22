@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*              Sass Template           */
+/*  global classes  */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+/* typography classes */
+.font-baloo {
+  font-family: "Poppins", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Template  */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFE82C;
+}
+
+.color-yellow-bg {
+  background: #FFE82C;
+}
+
+/*  offers template   */
+#offers .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#offers .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#offers .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#offers .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#offers .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#offers .owl-carousel .owl-nav button.owl-prev span,
+#offers .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#offers .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#offers .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#offers .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/* Main Header */
+.main-header__title {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 10px 0;
+  color: #003859;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-header {
+  height: 80px;
+  margin: 10px;
+}
+
+/* Footer */
+.main-footer {
+  margin-top: 30px;
+  padding: 30px 20px;
+}
+
+.footer__link {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__link:hover {
+  color: #007bff;
+}
+
+.icons__footer {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 10px;
+}
+
+.social__icon {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 5px;
+}
+
+.social__icon:hover {
+  color: #007bff;
+}
+
+/*Estilos para web*/
+@media screen and (min-width: 1024px) {
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  .copy {
+    grid-column-start: span 4;
+    text-align: center;
+  }
+}
+/* Blog Tips */
+.blog-tips {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn-shop {
+  display: block;
+  background: #003859;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 20px auto;
+  transition: 0.5s;
+}
+
+.btn-shop:hover {
+  color: black;
+}
+
+.tip i {
+  font-size: 1.5em;
+  color: #003859;
+  padding: 20px 0;
+}
+
+.tip__tittle {
+  color: #003859;
+}
+
+.tip__text {
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-tips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
