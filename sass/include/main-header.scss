@@ -1,0 +1,19 @@
+/* Main Header */
+
+.main-header__title {
+	text-align: center;
+	font-size: 2.5em;
+	margin: 10px 0;
+	color: $color-primary;
+}
+
+.main-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img-header {
+  height: 80px;
+  margin: 10px;
+}

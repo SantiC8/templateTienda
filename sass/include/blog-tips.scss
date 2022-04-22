@@ -1,0 +1,44 @@
+/* Blog Tips */
+
+.blog-tips {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.btn-shop {
+	display: block;
+	background: $color-primary;
+	border-radius: 10px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	margin: 20px auto;
+	transition: 0.5s;
+}
+
+.btn-shop:hover{
+	color: black;
+}
+
+.tip i{
+	font-size: 1.5em;
+	color: $color-primary;
+	padding: 20px 0;
+}
+
+.tip__tittle {
+	color: $color-primary;
+}
+
+.tip__text {
+	height: 30px;
+}
+
+@media screen and (min-width: 768px){
+	.blog-tips{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

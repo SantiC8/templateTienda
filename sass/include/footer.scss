@@ -1,0 +1,48 @@
+/* Footer */
+
+.main-footer{
+	margin-top: 30px;
+	padding: 30px 20px;
+}
+
+.footer__link {
+	display: block;
+	padding: 5px;
+	cursor: pointer;
+	color: rgba(255,255,255,.5);
+}
+
+.footer__link:hover {
+	color: #007bff;
+}
+
+.icons__footer {
+	display: grid;
+	grid-template-columns: repeat(2, 0fr);
+	grid-gap: 10px;
+}
+
+.social__icon {
+	font-size: 1.5em;
+	color: rgba(255,255,255,.5);
+	padding-bottom: 5px;
+}
+
+.social__icon:hover {
+	color: #007bff;
+}
+
+
+/*Estilos para web*/
+
+@media screen and (min-width: 1024px){
+	.main-footer{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 20px;
+	}
+	.copy{
+		grid-column-start: span 4;
+		text-align: center; 
+	}
+}
